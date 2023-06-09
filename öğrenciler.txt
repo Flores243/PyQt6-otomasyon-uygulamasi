@@ -1,0 +1,12 @@
+ogrno           TEXT
+ogrenciadi      TEXT
+ogrencisoyadi   TEXT
+dogumtarihi     TEXT
+telefon         TEXT
+eposta          TEXT
+fakulte         TEXT
+bolum           TEXT
+sınıf           TEXT
+egitimturu      TEXT
+fotograf        TEXT
+(açıköğretim, uzaktaneğitim, orgün, ikinciogretim)

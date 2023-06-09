@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginForm</class>
+ <widget class="QWidget" name="LoginForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>363</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Giriş Penceresi</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>551</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::West</enum>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_giris">
+    <attribute name="title">
+     <string>Kullanıcı Giriş</string>
+    </attribute>
+    <widget class="QPushButton" name="btn_cikis">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>120</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="toolTip">
+      <string>Çıkış İçin Tıklayınız</string>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Çııkış</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>C:/Users/Lab01-01/Desktop/icon.PNG</normaloff>C:/Users/Lab01-01/Desktop/icon.PNG</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_username">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>40</y>
+       <width>77</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kullanıcı Adı:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_username">
+     <property name="geometry">
+      <rect>
+       <x>165</x>
+       <y>32</y>
+       <width>167</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Kullanıcı Adı</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_pasword">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>80</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Parola:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_password">
+     <property name="geometry">
+      <rect>
+       <x>164</x>
+       <y>76</y>
+       <width>167</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>Parola</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_giris">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>120</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Giriş Yap</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>170</y>
+       <width>231</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Parolamı Unuttum</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_uyelik">
+    <attribute name="title">
+     <string>Kullanıcı Üyelik</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kullanici Adi:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Parola:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>E-Posta:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>140</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Kullanıcı Rolü:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_rol">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>140</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Rol Seçiniz</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Yönetici</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bölüm Başkanı</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Eğitim Görevlisi</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Asistan</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="txt_uyeUsername">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>13</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>Kullanıcı Adı</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_uyePassword">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>55</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Parola</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txt_uyeEmail">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>94</y>
+       <width>201</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>E-Posta</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_uyeol">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>10</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Üye Ol</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_uyegiris">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>70</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Giriş</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btn_uyecikis">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>130</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Çıkış</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

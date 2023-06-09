@@ -1,0 +1,5 @@
+sicilno     INT
+username    TEXT
+password    TEXT
+eposta      TEXT
+rolu        TEXT
